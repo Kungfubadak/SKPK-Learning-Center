@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guru - Kelas Kita</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Selamat Datang Guru!</h2>
+  <button onclick="logout()">Logout</button>
+
+  <h3>Tambah PR</h3>
+  <div id="formPR">
+    <input type="text" id="judulPR" placeholder="Judul PR"><br>
+    <textarea id="deskripsiPR" placeholder="Deskripsi PR"></textarea><br>
+    <button onclick="tambahPR()">Tambah PR</button>
+  </div>
+
+  <h3>Daftar PR</h3>
+  <ul id="daftarPR"></ul>
+
+  <script src="code.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar PR</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>Daftar PR Kelas</header>
+
+  <nav>
+    <a href="#" onclick="logout()">Logout</a>
+  </nav>
+
+  <main>
+    <!-- Form tambah PR -->
+    <div id="formPR" style="display: none;">
+      <h3>Tambah PR Baru</h3>
+      <input type="text" id="judulPR" placeholder="Judul PR"><br>
+      <textarea id="deskripsiPR" placeholder="Deskripsi PR"></textarea><br>
+      <button onclick="tambahPR()">Tambah PR</button>
+    </div>
+
+    <!-- Daftar PR -->
+    <h3>Daftar PR:</h3>
+    <ul id="daftarPR"></ul>
+  </main>
+
+  <!-- Link ke kode JS -->
+  <script src="code.js"></script> <!-- <- pastikan ini sama dengan nama file kamu -->
+</body>
+</html>
